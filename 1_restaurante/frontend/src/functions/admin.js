@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URI = 'http://localhost:3010/api/admin';
+const BASE_URI = 'http://165.22.38.106:3010/api/admin';
 
 axios.defaults.withCredentials = true;
 

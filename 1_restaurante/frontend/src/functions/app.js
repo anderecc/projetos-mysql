@@ -1,6 +1,6 @@
 import axios from 'axios';
 import format from '../utils/format';
-const BASE_URI = 'http://localhost:3010/api';
+const BASE_URI = 'http://165.22.38.106:3010/api';
 
 export const getMenus = () => {
     return new Promise((resolve, reject) => {
